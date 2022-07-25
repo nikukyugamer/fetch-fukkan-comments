@@ -10,7 +10,7 @@ class FetchFukkanComments {
     this.pageNo = pageNo
   }
 
-  async main() {
+  async exec() {
     const browser = await chromium.launch()
     const page = await browser.newPage()
     const baseUrl = 'https://www.fukkan.com/fk/VoteComment'

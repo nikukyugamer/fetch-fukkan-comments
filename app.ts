@@ -1,10 +1,12 @@
 import FetchFukkanComments from './FetchFukkanComments'
 import Exporter from './Exporter'
 
-const createFukkanCommentsCsv = async () => {
-  const comments = await new FetchFukkanComments(65317, 2).main()
-  const exporter = new Exporter(comments, 'my_fukkan_comments.csv')
+export const createFukkanCommentsCsv = async (
+  bookNo: number,
+  pageNo: number,
+  fileName: string
+) => {
+  const comments = await new FetchFukkanComments(bookNo, pageNo).exec()
+  const exporter = new Exporter(comments, fileName)
   exporter.toCsv()
 }
-
-createFukkanCommentsCsv()
