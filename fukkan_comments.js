@@ -3,7 +3,7 @@
 const program = require('commander')
 const app = require('./dist/app.js')
 
-program.version('1.0.0')
+program.version('1.0.1')
 program
   .requiredOption('-b, --book <book_number>', 'Book number')
   .option('-p, --page <page_number>', 'Page number', '1')
