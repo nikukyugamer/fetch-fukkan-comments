@@ -1,5 +1,4 @@
 import { FukkanComment, CsvRow } from './@types/index'
-import path from 'path'
 import { writeToPath } from '@fast-csv/format'
 
 class Exporter {
@@ -8,10 +7,10 @@ class Exporter {
 
   constructor(
     fukkanComments: FukkanComment[],
-    filename: string = 'fukkan_comments.csv'
+    outputCsvPath: string = 'fukkan_comments.csv'
   ) {
     this.fukkanComments = fukkanComments
-    this.outputCsvPath = `output/${filename}`
+    this.outputCsvPath = outputCsvPath
   }
 
   toCsv() {
@@ -28,7 +27,7 @@ class Exporter {
       ])
     })
 
-    writeToPath(path.resolve(__dirname, this.outputCsvPath), rows)
+    writeToPath(this.outputCsvPath, rows)
       .on('error', (err) => console.error(err))
       .on('finish', () => console.log('[LOG] CSV出力が完了しました。'))
   }
