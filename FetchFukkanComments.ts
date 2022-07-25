@@ -1,11 +1,5 @@
+import { FukkanComment } from './@types/index'
 import { chromium } from 'playwright'
-
-type FukkanComment = {
-  userId: string
-  userName: string
-  commentDetail: string
-  postedOn: string
-}
 
 class FetchFukkanComments {
   bookNo: number
@@ -27,9 +21,9 @@ class FetchFukkanComments {
     const comments: any = await page.locator('ul.comment_list li')
     const fukkanComments = await this.setFukkanComments(comments)
 
-    console.log(fukkanComments)
-
     await browser.close()
+
+    return fukkanComments
   }
 
   async setFukkanComments(comments: any): Promise<FukkanComment[]> {

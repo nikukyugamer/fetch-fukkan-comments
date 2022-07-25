@@ -26,3 +26,9 @@ jobs:
     - name: app.ts を実行する
       run: |
         npx ts-node app.ts
+    - name: 生成された CSV ファイルなどをアーカイブする
+      uses: actions/upload-artifact@v3
+      with:
+        name: created-csv-file
+        path: |
+          output
