@@ -1393,17 +1393,17 @@ picomatch@^2.3.1:
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-playwright-core@1.24.1:
-  version "1.24.1"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.24.1.tgz#032eefaa8f674a4253a6c35a86787f2cbfcd8829"
-  integrity sha512-1RoSDe/oTQS1Ct7Pb8i+vcFKbKYpmVIBXk0IUiD8RvCUMnNl7EJF1OSQ9E8TZ5RYamWkW2Psir9e8Doyz1FnhQ==
+playwright-core@1.25.1:
+  version "1.25.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.25.1.tgz#abe56aec8bef645fba988320d9f9328fafab0446"
+  integrity sha512-lSvPCmA2n7LawD2Hw7gSCLScZ+vYRkhU8xH0AapMyzwN+ojoDqhkH/KIEUxwNu2PjPoE/fcE0wLAksdOhJ2O5g==
 
-playwright@1.24.1:
-  version "1.24.1"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.24.1.tgz#2d047dc28468e80952cd4cee3ae2223a3ad94abb"
-  integrity sha512-ALAdckGTTZq6cPD/NlWE+OO5cgNBi9BHKk6FoDztlcVNJ07F1buwydTuf8wBu1Jzi+SGOpEfLR/83+2fS84ksQ==
+playwright@1.25.1:
+  version "1.25.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.25.1.tgz#23fe129ca05568a72ee2a3842baa0a1985d1b345"
+  integrity sha512-kOlW7mllnQ70ALTwAor73q/FhdH9EEXLUqjdzqioYLcSVC4n4NBfDqeCikGuayFZrLECLkU6Hcbziy/szqTXSA==
   dependencies:
-    playwright-core "1.24.1"
+    playwright-core "1.25.1"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
