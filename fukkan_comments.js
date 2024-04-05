@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const program = require('commander')
+const { program } = require('commander')
 const app = require('./dist/app.js')
 
 program.version('1.0.1')

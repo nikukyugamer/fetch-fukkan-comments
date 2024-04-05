@@ -6,7 +6,7 @@
     "fukkan_comments": "fukkan_comments.js"
   },
   "dependencies": {
-    "commander": "11.1.0",
+    "commander": "12.0.0",
     "fast-csv": "5.0.1",
     "playwright": "1.37.1"
   },
