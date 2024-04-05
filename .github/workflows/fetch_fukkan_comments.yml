@@ -29,7 +29,7 @@ jobs:
         ./fukkan_comments.js --help
     - name: CLI を実行する
       run: |
-        npx playwright install
+        npx playwright install --with-deps
         ./fukkan_comments.js -b 65317 -p 2 -o output/fukkan_comments_by_github_actions.csv
     - name: 生成された CSV ファイルなどをアーカイブする
       uses: actions/upload-artifact@v4
