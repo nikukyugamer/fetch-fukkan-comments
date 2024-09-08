@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var format_1 = require("@fast-csv/format");
 var Exporter = /** @class */ (function () {
     function Exporter(fukkanComments, outputCsvPath) {
@@ -25,4 +25,4 @@ var Exporter = /** @class */ (function () {
     };
     return Exporter;
 }());
-exports["default"] = Exporter;
+exports.default = Exporter;
