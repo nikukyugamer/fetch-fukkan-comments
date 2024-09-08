@@ -65,7 +65,7 @@ $ fukkan_comments --book 2728 --page 2 --output /tmp/fukkan_comments.csv
 # 使い方（リポジトリを clone した場合）
 
 ```bash
-$ node fukkan_comments.js --book 2728 --page 2 --output /tmp/fukkan_comments.csv
+$ ./fukkan_comments.js --book 2728 --page 2 --output /tmp/fukkan_comments.csv
 ```
 
 # CSV ファイルの例
