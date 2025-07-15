@@ -118,10 +118,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@next/eslint-plugin-next@15.4.0":
-  version "15.4.0"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.4.0.tgz#7591d0c31d4ec9dc7bb7f5def491bf2b617bd592"
-  integrity sha512-dlGuj2B76ltswtpdDFQJfTlu6ux0v+EUYzsAYR1IqxqHi5iMPWhPRztgu8eqQZo4uNYkABKzLCmVeGDwbTYTiw==
+"@next/eslint-plugin-next@15.4.1":
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-15.4.1.tgz#1073fd7cc2d9e154249dc2bb40ce886a8606f73d"
+  integrity sha512-lQnHUxN7mMksK7IxgKDIXNMWFOBmksVrjamMEURXiYfo7zgsc30lnU8u4y/MJktSh+nB80ktTQeQbWdQO6c8Ow==
   dependencies:
     fast-glob "3.3.1"
 
@@ -938,12 +938,12 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-next@15.4.0:
-  version "15.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-15.4.0.tgz#7f9ef31939114825d5a8ce685c7294cf309c32c7"
-  integrity sha512-OFkQ8br0wuZNRlXDyLpfaCwzW+qayzNaiHNcLHDMW874/1Nktb2+cCUMlItXdzDvNS/QY5jggKlYXEH2+vz1BA==
+eslint-config-next@15.4.1:
+  version "15.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-next/-/eslint-config-next-15.4.1.tgz#bd9457fab7c7084d034a643f4e1770d45dcca97d"
+  integrity sha512-XIIN+lq8XuSwXUrcv+0uHMDFGJFPxLAw04/a4muFZYygSvStvVa15nY7kh4Il6yOVJyxdMUyVdQ9ApGedaeupw==
   dependencies:
-    "@next/eslint-plugin-next" "15.4.0"
+    "@next/eslint-plugin-next" "15.4.1"
     "@rushstack/eslint-patch" "^1.10.3"
     "@typescript-eslint/eslint-plugin" "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
     "@typescript-eslint/parser" "^5.4.2 || ^6.0.0 || ^7.0.0 || ^8.0.0"
