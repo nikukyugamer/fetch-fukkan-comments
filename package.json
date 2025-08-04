@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "commander": "14.0.0",
-    "fast-csv": "5.0.2",
+    "fast-csv": "5.0.5",
     "playwright": "1.54.2"
   },
   "devDependencies": {
